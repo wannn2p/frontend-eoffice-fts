@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* In your index.css or App.css */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Force all routes to take full height */
+.route-container {
+  min-height: 100%;
+}
